@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    
+    <div id="calculator">
+
+        <input id="viewfinder" type="text" placeholder="0">
+        
+        <input class="buttons" onclick="insert('7')" type="button" value="7">
+        <input class="buttons" onclick="insert('8')" type="button" value="8">
+        <input class="buttons" onclick="insert('9')" type="button" value="9">
+        <input class="buttons functions" onclick="insert('/')" type="button" value="÷">
+        
+        <input class="buttons" onclick="insert('4')" type="button" value="4">
+        <input class="buttons" onclick="insert('5')" type="button" value="5">
+        <input class="buttons" onclick="insert('6')" type="button" value="6">
+        <input class="buttons functions" onclick="insert('*')" type="button" value="x">
+        
+        <input class="buttons" onclick="insert('1')" type="button" value="1">
+        <input class="buttons" onclick="insert('2')" type="button" value="2">
+        <input class="buttons" onclick="insert('3')" type="button" value="3">
+        <input class="buttons functions" onclick="insert('-')" type="button" value="-">
+        
+        <input class="buttons functions" type="button" value="C">
+        <input class="buttons" onclick="insert('0')" type="button" value="0">
+        <input class="buttons"  onclick="insert(',')" type="button" value=",">
+        <input class="buttons functions" onclick="insert('+')" type="button" value="+">
+        
+        <input class="buttons commands functions" onclick="clean()" type="button" value="<">
+        <input class="buttons commands functions" onclick="calculate()" type="button" value="=">
+
+    </div>
+
+
+<script src="./scripts/script.js"></script>
+</body>
+</html>
