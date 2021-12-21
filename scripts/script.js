@@ -14,14 +14,22 @@ function back (){
 }
 
 function calculate (){
+    
     let  result = document.getElementById('viewfinder').value
 
-    if(result){
+    try {
 
-        let a = document.getElementById('viewfinder').value = eval(result)
+        if(result){
+            let a = document.getElementById('viewfinder').value = eval(result)
+        } 
 
-    } 
-        
-        //mostrar msg de erro no cálculo que o usuário tentou executar
+    } catch (err){
 
+        document.getElementById('viewfinder').value = "Operação inválida"
+
+        setTimeout(function() {
+            clean ()
+          }, 1000)
+
+    }
 }

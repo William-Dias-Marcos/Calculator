@@ -3,13 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(163, 7, 38) );
     height: 100vh;
 
 }
-
 #calculator{
     width: 450px;
     position: absolute;
@@ -18,7 +16,6 @@ body{
     transform: translate(-50%, -50%);
     background-color: rgb(14, 14, 14);
 }
-
 #viewfinder{
     width: 400px;
     height: 80px;
@@ -32,7 +29,6 @@ body{
     border: 0 none;
     outline: 0;
 }
-
 .buttons{
     width: 100px;
     height: 70px;
@@ -46,11 +42,9 @@ body{
     border: 0 none;
     outline: 0;
 }
-
 .buttons:hover{
     background-color: rgb(14, 14, 14);
 }
-
 .commands{
     width: 160px;
     margin-bottom: 20px;
@@ -65,19 +59,21 @@ body{
         background-image: none;
         background-color: rgb(14, 14, 14) ;
     }
-    
     #calculator{
         width: 320px;
-        margin-left: 20px;
-        
+        margin-left: 20px; 
     }
     #viewfinder{
         width: 300px;
         height: 50px;
+        font-size: 30px;
     }
     .buttons{
+        background-color: rgb(112, 6, 27);
         width: 70px;
         height: 40px;
     }
-    
+    .commands{
+        width: 100px;
+    }
 }
