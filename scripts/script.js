@@ -17,8 +17,11 @@ function calculate (){
     let  result = document.getElementById('viewfinder').value
 
     if(result){
-        document.getElementById('viewfinder').value = eval(result)
-    } else{
-        document.getElementById('viewfinder').value = ""
-    }
+
+        let a = document.getElementById('viewfinder').value = eval(result)
+
+    } 
+        
+        //mostrar msg de erro no cálculo que o usuário tentou executar
+
 }
