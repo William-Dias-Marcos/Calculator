@@ -1,7 +1,5 @@
 <h1 align="center"> Calculator </h1>
 
-🚧 Atenção, projeto em desenvolvimento 🚧 
-
 ## 💻 Sobre o projeto
 
 🧮 Calculator é uma calculadora online.
