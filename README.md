@@ -21,8 +21,9 @@ https://william-dias-marcos.github.io/Calculator/
 ## 📱 Layout da Aplicação
 
 <p text  align="center">
-
+<img img width= "700" src= "https://github.com/William-Dias-Marcos/Calculator/blob/master/to_readme/gif.gif"> 
 </p>
+
 
 ---
 
