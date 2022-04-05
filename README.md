@@ -4,7 +4,7 @@
 
 🧮 Calculator é uma calculadora online.
 
-https://william-dias-marcos.github.io/Calculator/
+https://traditionalonlinecalculator.netlify.app/
 
 ---
 
